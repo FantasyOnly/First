@@ -70,6 +70,7 @@ def isPointinPolygon(point, rangelist):  #[[0,0],[1,1],[0,1],[0,0]] [1,0.8]
 
 if __name__ == '__main__':
     name="D:\wuhan.txt"
+
     new="D:\wuHanNew.txt"
 
     fileList=readFileBylines(name,"r")
