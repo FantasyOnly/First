@@ -27,7 +27,9 @@ def getTimeStamp(offset):
 
 if __name__ == "__main__":
     name="D:\wuhan.txt"
+
     new="D:\wuHanNew.txt"
+
     originData=readFile(name,'r')
     new_str=originData.replace(";","\n")
     writeFile(name,new_str,"w")
