@@ -13,10 +13,13 @@ if __name__ == "__main__":
     # print(r.text)
     all_a = BeautifulSoup(r.text, 'lxml').find_all('img',class_='_2zEKz')
     for a in all_a:
+
         # 循环获取a标签中的style
         img_str = a['srcset']
         print (type(img_str))
+
         print('标签是：',img_str)
+
         first_pos = img_str.index('2400w,')+6
         second_pos = img_str.index('2592w')
         print(img_str[first_pos: second_pos])
