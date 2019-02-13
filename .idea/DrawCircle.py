@@ -79,4 +79,4 @@ if __name__ == '__main__':
         itemList[0]=float(itemList[0])
         itemList[1]=float(itemList[1])
         newList.append(itemList)
-print(isPointinPolygon([114.317994,30.595931], newList)) 
+print(isPointinPolygon([114.317984,30.595931], newList))
